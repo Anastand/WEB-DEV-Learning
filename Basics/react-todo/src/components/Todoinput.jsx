@@ -1,3 +1,5 @@
-export default function Todoinput(){
-    return( <div> Todoinput </div>)
+
+export default function Todoinput(props) {
+    return <>
+    </>;
 }
