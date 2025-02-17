@@ -8,9 +8,9 @@ export function TabHeader(props) {
         if (tabs == "All") {
           todonumber = todos.length;
         } else if (tabs == "Open") {
-          todonumber = todos.filter((val) => val.complete == false).length;
+          todonumber = todos.filter((val) => !val.complete).length;
         } else {
-          todonumber = todos.filter((val) => val.complete == true).length;
+          todonumber = todos.filter((val) => val.complete).length;
         }
         return (
           <button key={tabsindex} className="tab-button">

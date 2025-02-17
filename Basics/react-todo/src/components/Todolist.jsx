@@ -4,10 +4,17 @@ import Todoinput from "./Todoinput";
 export default function Todolist(props) {
   const { todos } = props;
   const tab = "All";
+  const filteredtodos =
+    tab == "All"
+      ? todos
+      : tab == "Completed"
+      ? todos.filter((val) => val.complete)
+      : todos.filter((val) => !val.complete);
+
   return (
     <>
-      {todos.map((tab, tabindex) => {
-        return <Todocard key={tabindex} tabindex={tabindex} {...props} />;
+      {filteredtodos.map((todo, todoindex) => {
+        return <Todocard key={todoindex} todo={todo} />;
       })}
     </>
   );
