@@ -13,10 +13,11 @@ function App() {
   // ];
 
   const [todo_List, settodo_List] = useState([
+  // example of how is use state is written and used
     { input: "todo 1-v1", complete: true },
     { input: "todo 2-v2", complete: false },
   ]);
-  
+
 
   return (
     <>
