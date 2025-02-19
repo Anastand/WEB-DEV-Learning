@@ -3,4 +3,5 @@ this contains my entire web-dev project portfolio with all the learning and prog
 
 ## React - TODO APP
 - [ToDo Repo](https://github.com/Anastand/WEB-DEV-Learning/tree/main/Basics/react-todo)
+- [Notion Documentation and Learnings](https://internal-collar-34e.notion.site/Basic-of-web-dev-react-todo-198bec9c024d80258af8e037b300f0ea)
 - [Live Website link]()
