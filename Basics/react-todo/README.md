@@ -7,4 +7,4 @@ This is a simple Todo application built with React. It allows users to add, dele
 - [x] Filter ToDO
 - [x] make card section
 - [x] start using {useState}
-- [ ] 
+- [ ]  
